@@ -1,0 +1,13 @@
+{
+  "name": "helm-trading-bot",
+  "version": "1.0.0",
+  "description": "Bot trading untuk Helm Project",
+  "main": "bot.ts",
+  "dependencies": {
+    "@solana/web3.js": "^1.90.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "ts-node bot.ts"
+  }
+}
